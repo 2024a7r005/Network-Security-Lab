@@ -5,7 +5,7 @@ def encrypt(text, key):
     result = ""
 
     for char in text:
-        if char.isalpha():
+        if char.isalpha();
             new = (ord(char) - ord("A") + key) % 26
             result += chr(ord("A") + new)
         else:
