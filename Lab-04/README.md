@@ -1,7 +1,5 @@
 # Experiment 4 — X.509 Self-Signed Digital Certificate
 
-**COM-511 Network Security Lab**
-
 ## Aim
 
 Generate an RSA private key and a self-signed X.509 certificate using OpenSSL, inspect its fields, verify it with and without an explicit trust anchor, and confirm the certificate's public key matches the private key.
